@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+	<TableRow android:padding="20px" 
+		android:gravity="center">
+		<TextView android:id="@+id/text1" 
+			android:text="Detalhes do Carro" 
+			android:textColor="#000000"  />
+	</TableRow>
+	<TableRow android:padding="10px">
+		<TextView android:id="@+id/cnome" 
+			android:text="Nome:"
+			android:textColor="#000000" />
+		<TextView android:id="@+id/campoNome" 
+			android:width="240px" />
+	</TableRow>
+	<TableRow android:padding="10px">
+		<TextView android:id="@+id/cplaca" 
+			android:text="Placa:"
+			android:textColor="#000000" />
+		<TextView android:id="@+id/campoPlaca"  />
+	</TableRow>
+	<TableRow android:padding="10px">
+		<TextView android:id="@+id/cano" 
+			android:text="Ano:"
+			android:textColor="#000000" />
+		<TextView android:id="@+id/campoAno"  />
+	</TableRow>
+</TableLayout>

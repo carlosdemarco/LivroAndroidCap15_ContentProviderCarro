@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cap15-CarroProvider</string>
+    <string name="lista_vazia">Não existem carros cadastrados.</string>
+    <string name="voltar">[Voltar]</string>
+    
+    <string name="adicionar">Adicionar Novo</string>
+    <string name="deletar">Deletar</string>
+    <string name="editar">Editar</string>
+    <string name="buscar">Buscar</string>
+
+</resources>
